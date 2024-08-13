@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  h1{
+    color:black;
+    
+  }
+  h4{
+    color:  #fff;
+  }
+  span{
+    color: rgb(228, 151, 8);
+  }
+  
+  .nav_bar{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .logo i{
+    margin-right: 10px;
+    color: rgb(228, 151, 8);
+    font-size: 1.8rem;
+  }
+  
+  /* menu list style */
+  .menu_list a{
+    margin: 1.2rem;
+    font-size: 14px;
+   color: #fff;
+  }
+  .lg_btn{
+    margin-left: 2rem;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    color: #fff;
+    background: rgb(228, 151, 8);
+    cursor: pointer;
+  }
+  .menu_list a:hover{
+    color: rgb(228, 151, 8);
+  }
+  
+  /*section starts*/
+  section{
+    padding:1.5rem 9%;
+  }
+
+  .home
+  {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-flow:column;
+    position:relative;
+    z-index: 0;
+  }
+
+  .home.content
+  {
+    text-align: center;
+
+  }
+  .home.h4{
+    font-size: 4.5 rem;
+    color:rgb(228, 151, 8);
+    text-transform: uppercase;
+    text-shadow:0 .3rem .5rem rgba(0,0,0,.1);
+
+  }
+  .home .btn{
+    background-color:rgb(228, 151, 8);;
+  }
+  .home .video-container video{
+    position: absolute;
+    top:0; left:0;
+    z-index:-1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    
+  }
+  .home .controls
+  {
+    padding:1rem;
+    border-radius: 5rem;
+    background: rgba(0,0,0,.7);
+    position: relative;
+    top:10rem;
+  }
